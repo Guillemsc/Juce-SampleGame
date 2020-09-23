@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27fe0669b9df4b44a82303e26030c60, type: 3}
+  m_Name: MatchLogicSettings
+  m_EditorClassIdentifier: 
+  mapSectionsConfig: {fileID: 11400000, guid: 14017c25a8758a642b41b63e6f83360e, type: 2}

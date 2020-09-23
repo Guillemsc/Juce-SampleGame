@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d929b408ddfa004eae9bb5217eb6988, type: 3}
+  m_Name: MapSectionsSettings
+  m_EditorClassIdentifier: 
+  startingDistance: 5
+  distanceBetweenSections: 0
+  spawnOffsetFromShip: 10
+  despawnOffsetFromShip: 5
+  mapSectionsPrefabs:
+  - {fileID: 8153915452658903942, guid: 6759262bfe2549f48aae9c573956ff89, type: 3}
+  - {fileID: 8153915452658903942, guid: 5f8c019d65cf8244b8ac79252c1006ec, type: 3}

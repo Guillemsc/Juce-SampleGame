@@ -1,0 +1,44 @@
+{
+    "name": "DebugMaster",
+    "maps": [
+        {
+            "name": "SRDebugger",
+            "id": "ad558995-c494-4063-a9a7-f80fc3bd7e8a",
+            "actions": [
+                {
+                    "name": "Show",
+                    "type": "Button",
+                    "id": "a794e914-1fd1-4306-8c42-428f10df9d63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f10b2cf5-d61b-4c47-87de-e3ab5b599e56",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Show",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d365c1e3-0fc2-4ba1-97a3-e79009089d29",
+                    "path": "<Touchscreen>/touch3/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Show",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
