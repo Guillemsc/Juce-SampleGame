@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/SampleGame/Config/Input/DebugMaster.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Game/Client/Input/DebugMaster.inputactions'
 
 using System;
 using System.Collections;
