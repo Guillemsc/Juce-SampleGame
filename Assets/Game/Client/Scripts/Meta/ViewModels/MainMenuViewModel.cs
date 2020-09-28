@@ -28,12 +28,12 @@ namespace Game.Client.Meta.ViewModels
 
         public override async Task Show()
         {
-            await showFeedback.Play();
+            //await showFeedback.Play();
         }
 
         public override async Task Hide()
         {
-            await hideFeedback.Play();
+            //await hideFeedback.Play();
         }
 
         private void OnClickMainMenuButton()

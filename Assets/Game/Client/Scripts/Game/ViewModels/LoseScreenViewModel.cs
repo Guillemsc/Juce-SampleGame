@@ -8,6 +8,7 @@ using Juce.Core.Contexts;
 using Juce.Core.Services;
 using Game.Client.Contexts;
 using Game.Client.Services;
+using Juce.Core.Service;
 
 namespace Game.Client.ViewModels
 {
@@ -30,12 +31,12 @@ namespace Game.Client.ViewModels
 
         public override async Task Show()
         {
-            await showFeedback.Play();
+            //await showFeedback.Play();
         }
 
         public override async Task Hide()
         {
-            await hideFeedback.Play();
+            //await hideFeedback.Play();
         }
 
         private void OnClickPlayAgainButton()

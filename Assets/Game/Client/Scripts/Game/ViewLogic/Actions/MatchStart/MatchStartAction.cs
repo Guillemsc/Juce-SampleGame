@@ -35,7 +35,7 @@ namespace Game.Client.ViewLogic
         {
             InstructionsSequence sequence = new InstructionsSequence();
 
-            sequence.Append(new WaitTimeInstruction(1.0f));
+            //sequence.Append(new WaitTimeInstruction(1.0f));
 
             sequence.Append(new MoveShipViewToOffsetInstruction(shipViewManager));
             sequence.Append(new StartDirectionBarViewModel(directionBarViewModel, gameTimeService, directionBarSettings));

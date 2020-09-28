@@ -8,6 +8,7 @@ using Juce.Core.Contexts;
 using Juce.Core.Services;
 using Game.Client.Contexts;
 using Game.Client.Services;
+using Juce.Core.Service;
 
 namespace Game.Client.Meta.ViewModels
 {
@@ -40,12 +41,12 @@ namespace Game.Client.Meta.ViewModels
 
         public override async Task Show()
         {
-            await showFeedback.Play();
+            //await showFeedback.Play();
         }
 
         public override async Task Hide()
         {
-            await hideFeedback.Play();
+            //await hideFeedback.Play();
         }
 
         private void OnClickBackButton()
@@ -81,7 +82,7 @@ namespace Game.Client.Meta.ViewModels
 
             GameContext gameContext = ContextsProvider.Instance.GetContext<GameContext>();
 
-            while(!gameContext.IsReady)
+            while (!gameContext.IsReady)
             {
                 await Task.Yield();
             }

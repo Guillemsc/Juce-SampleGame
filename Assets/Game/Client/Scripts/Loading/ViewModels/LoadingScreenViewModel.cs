@@ -14,12 +14,12 @@ namespace Game.Client.Loading.ViewModels
 
         public override async Task Show()
         {
-            await showFeedback.Play();
+            //await showFeedback.Play();
         }
 
         public override async Task Hide()
         {
-            await hideFeedback.Play();
+            //await hideFeedback.Play();
         }
     }
 }

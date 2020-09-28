@@ -10,7 +10,7 @@ namespace Game.Client.View
 
         public void PlayCrossed()
         {
-            crossedFeedback.Play().ExecuteAsync();
+            //crossedFeedback.Play().ExecuteAsync();
         }
     }
 }

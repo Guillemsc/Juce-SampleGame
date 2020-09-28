@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Juce.Core.Services;
 using Juce.Core.Contexts;
+using Juce.Core.Service;
 
 namespace Game.Client.Contexts
 {

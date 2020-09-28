@@ -12,14 +12,14 @@ namespace Game.Client.Meta.ViewModels
         [SerializeField] private FeedbacksPlayer showFeedback = default;
         [SerializeField] private FeedbacksPlayer hideFeedback = default;
 
-        public override async Task Show()
-        {
-            await showFeedback.Play();
-        }
+        //public override async Task Show()
+        //{
+        //    await showFeedback.Play();
+        //}
 
-        public override async Task Hide()
-        {
-            await hideFeedback.Play();
-        }
+        //public override async Task Hide()
+        //{
+        //    await hideFeedback.Play();
+        //}
     }
 }

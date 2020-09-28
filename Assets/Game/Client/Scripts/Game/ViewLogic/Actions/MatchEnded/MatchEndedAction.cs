@@ -19,7 +19,7 @@ namespace Game.Client.ViewLogic
         {
             InstructionsSequence sequence = new InstructionsSequence();
 
-            sequence.Append(new WaitTimeInstruction(0.3f));
+            //sequence.Append(new WaitTimeInstruction(0.3f));
             sequence.Append(new ShowLoseScreenViewModelInstruction(loseScreenViewModel));
 
             instructionHandler.EnqueueMainInstruction(sequence);

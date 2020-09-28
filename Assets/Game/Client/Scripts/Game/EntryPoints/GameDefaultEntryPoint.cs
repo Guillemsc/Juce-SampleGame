@@ -4,6 +4,7 @@ using Juce.Core.Contexts;
 using Juce.Core.EntryPoint;
 using Juce.Core.Logic;
 using Juce.Core.Services;
+using Juce.Core.Service;
 using Game.Client.Contexts;
 using Game.Client.Managers;
 using Game.Client.Services;
@@ -75,7 +76,7 @@ namespace Game.Client.ViewLogic
             AddCleanUpAction(() => instructionsHandlerBehaviour.Disable());
 
             ShipViewMovementBehaviour shipViewMovementBehaviour = new ShipViewMovementBehaviour(
-                tickableService, 
+                tickableService,
                 gameContextReferences.ShipViewMovementSettings
                 );
             shipViewMovementBehaviour.Enable();
@@ -144,7 +145,7 @@ namespace Game.Client.ViewLogic
                         new IMatchSetupAction[]
                         {
                             new LoadScenarioMatchSetupAction(
-                                instructionsHandlerBehaviour, 
+                                instructionsHandlerBehaviour,
                                 gameContext,
                                 shipViewManager,
                                 mapSectionsSpawnBehaviour,
@@ -179,7 +180,7 @@ namespace Game.Client.ViewLogic
                     instructionsHandlerBehaviour,
                     mapSectionsSpawnBehaviour
                     ),
-                
+
                 shipDestroyed: new ShipDestroyedAction(
                     instructionsHandlerBehaviour,
                     shipViewManager,

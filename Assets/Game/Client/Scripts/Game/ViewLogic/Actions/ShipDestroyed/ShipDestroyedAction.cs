@@ -31,7 +31,7 @@ namespace Game.Client.ViewLogic
 
             sequence.JoinCallback(() =>
             {
-                shipDestroyedWorldFeedback.Play().ExecuteAsync();
+                //shipDestroyedWorldFeedback.Play().ExecuteAsync();
             });
 
             instructionHandler.EnqueueMainInstruction(sequence);

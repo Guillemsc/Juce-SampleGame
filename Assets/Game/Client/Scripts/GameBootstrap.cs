@@ -1,6 +1,7 @@
 ﻿using System;
 using Juce.Core.Bootstrap;
 using Juce.Core.Services;
+using Juce.Core.Service;
 using Game.Client.Services;
 
 namespace SampleGame

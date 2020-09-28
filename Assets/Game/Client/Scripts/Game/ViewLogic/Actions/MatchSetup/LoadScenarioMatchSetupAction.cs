@@ -47,7 +47,7 @@ namespace Game.Client.ViewLogic
             sequence.Append(new StartMapSectionsSpawnBehaviourInstruction(shipViewManager, mapSectionsSpawnBehaviour));
             sequence.Append(new StartMapSectionsDespawnBehaviourInstruction(shipViewManager, mapSectionsDespawnBehaviour));
 
-            sequence.Append(new StartPointLineSpawnBehaviourInstruction(shipViewManager, pointLineSpawnBehaviour));
+            //sequence.Append(new StartPointLineSpawnBehaviourInstruction(shipViewManager, pointLineSpawnBehaviour));
             sequence.Append(new StartPointLineDespawnBehaviourInstruction(shipViewManager, pointLineDespawnBehaviour));
 
             instructionHandler.EnqueueMainInstruction(sequence);
